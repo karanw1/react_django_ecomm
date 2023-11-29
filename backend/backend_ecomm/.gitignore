@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+*.db
+*.log
+*.pyc
+*.pyo
+
+# Secret key
+secret_key.txt
+
+# Media files
+media/
+
+# Static files
+static/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Ignore migrations, as they are usually not needed in version control
+**/migrations/
+
+# Ignore the local configuration file
+local_settings.py
+
+# Ignore the test database
+test_db.sqlite3
